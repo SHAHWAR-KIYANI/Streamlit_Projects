@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib as plt
 
 st.title("Data DashBoard")
 uploaded_file = st.file_uploader("Choose a CSV File", type="CSV")

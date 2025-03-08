@@ -11,7 +11,7 @@ st.sidebar.title("Sentiment Analysis of Tweets")
 st.sidebar.markdown("This Application is a Streamlit Dashboard used to Analyze Sentiments of Tweets  ")
 st.sidebar.write("__________")
 
-data_url = "C:\\Users\Shahwar\Desktop\Streamlit_Projects\Project_3_SentimentAnalysisOfTweets\Tweets.csv"
+data_url = "C:\\Users\Shahwar\Desktop\Streamlit_Projects\Project_3_SentimentAnalysisOfTweets"
 
 @st.cache_data
 def load_data():
